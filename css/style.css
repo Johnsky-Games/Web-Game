@@ -113,6 +113,15 @@ img {
   padding: 1rem 0;
 }
 
+.logo__image {
+  width: 10rem;
+}
+
+.logo__image:hover {
+  animation: spin 1s linear infinite;
+  box-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff;
+}
+
 .bar {
   display: flex;
   justify-content: center;
@@ -174,6 +183,7 @@ img {
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff;
+    resize: none;
 }
 
 .content__0 {
